@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application>
+
+        <!-- no screenOrientation: a translucent activity that sets one crashes on Android 8.0 -->
+        <activity
+            android:name=".compose_ui.feedback.FeedbackActivity"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:theme="@style/AppFeedbackTheme.Transparent"
+            android:windowSoftInputMode="adjustResize" />
+
+    </application>
+
+</manifest>

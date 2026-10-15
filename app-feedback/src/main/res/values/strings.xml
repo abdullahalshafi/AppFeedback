@@ -1,0 +1,17 @@
+<resources>
+    <!-- prefixed so they never collide with the host app's strings; a host can still override one by name (e.g. values-bn) -->
+    <string name="app_feedback_please_share_your_feedback_to_continue">Please share your feedback to continue using the app.</string>
+    <string name="app_feedback_feedback_points">• \n• \n• \n•</string>
+    <string name="app_feedback_submit">Submit</string>
+    <string name="app_feedback_close">Close</string>
+    <string name="app_feedback_thank_you">Thank you!</string>
+    <string name="app_feedback_your_feedback_has_been_submitted">Your feedback has been submitted.</string>
+
+    <!-- api errors -->
+    <string name="app_feedback_no_internet_please_check_your_connection">No internet! Please check your connection.</string>
+    <string name="app_feedback_bad_request">Bad request</string>
+    <string name="app_feedback_page_not_found">Page not found</string>
+    <string name="app_feedback_internal_server_error">Internal server error</string>
+    <string name="app_feedback_bad_gateway">Bad gateway</string>
+    <string name="app_feedback_something_went_wrong">Something went wrong</string>
+</resources>

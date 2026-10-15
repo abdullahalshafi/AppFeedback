@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">App Feedback Sample</string>
+    <string name="sample_description">AppFeedback.check() runs every time this screen opens and shows the dialog only when feedback is due. The button below opens it on demand.</string>
+    <string name="give_feedback">Give feedback</string>
+</resources>
